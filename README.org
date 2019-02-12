@@ -1,0 +1,7 @@
+
+https://fosdem.org/2019/schedule/event/python_solving_polynomial_systems/
+sagemath and phcpy
+http://homepages.math.uic.edu/~jan/phcpy_doc_html/usecases.html
+https://fosdem.org/2019/schedule/event/ada_parallel/
+https://github.com/janverschelde/PHCpack/blob/master/src/Ada/Tasking/sigint_handler.adb
+https://people.cs.kuleuven.be/~dirk.craeynest/ada-belgium/events/19/190202-fosdem/04-ada-parallel.pdf
