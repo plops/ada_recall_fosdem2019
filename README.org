@@ -21,7 +21,8 @@ gnatmake -o /dev/shm/sht sigint_handler_test.adb
 * Cross Compiling for raspberry pi 2
 
 - install gnat-gpl-2016-raspberrypi-linux-linux-bin.tar.gz
-- export ENV_PREFIX=/home/martin/opt/gnat_pi2/
+- you have to copy the libraries from the cross compilation target as described here https://docs.adacore.com/gnat_ugx-docs/html/gnat_ugx/gnat_ugx/cross_linux_topics.html
+- set environment variable: export ENV_PREFIX=
 - cd obj_pi2arm
 - arm-linux-gnueabihf-gnatmake ../src/sigint_handler_test.adb
-- currently linking with libc, libpthread and librt fails 
+
