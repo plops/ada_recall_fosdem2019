@@ -7,6 +7,11 @@ https://fosdem.org/2019/schedule/event/ada_parallel/
 https://github.com/janverschelde/PHCpack/blob/master/src/Ada/Tasking/sigint_handler.adb
 https://people.cs.kuleuven.be/~dirk.craeynest/ada-belgium/events/19/190202-fosdem/04-ada-parallel.pdf
 
+* Compiler
+
+- install gnat or adacores free compiler:
+- https://www.adacore.com/download/more
+
 * Building
 
 either build in gps or in command line
