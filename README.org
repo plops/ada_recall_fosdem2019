@@ -12,11 +12,10 @@ https://people.cs.kuleuven.be/~dirk.craeynest/ada-belgium/events/19/190202-fosde
 - install gnat or adacores free compiler:
 - https://www.adacore.com/download/more
 
-* Building
+* Compiling
 
-either build in gps or in command line
-
-gnatmake -o /dev/shm/sht sigint_handler_test.adb
+- either open project in gps or 
+- build in command line gnatmake -o /dev/shm/sht sigint_handler_test.adb
 
 * Cross Compiling for raspberry pi 2
 
