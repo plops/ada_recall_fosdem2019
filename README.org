@@ -17,3 +17,11 @@ https://people.cs.kuleuven.be/~dirk.craeynest/ada-belgium/events/19/190202-fosde
 either build in gps or in command line
 
 gnatmake -o /dev/shm/sht sigint_handler_test.adb
+
+* Cross Compiling for raspberry pi 2
+
+- install gnat-gpl-2016-raspberrypi-linux-linux-bin.tar.gz
+- export ENV_PREFIX=/home/martin/opt/gnat_pi2/
+- cd obj_pi2arm
+- arm-linux-gnueabihf-gnatmake ../src/sigint_handler_test.adb
+- currently linking with libc, libpthread and librt fails 
